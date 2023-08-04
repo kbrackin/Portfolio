@@ -1,7 +1,7 @@
-/* * {
+* {
     margin-top: 0px;
     margin-left: 0px;
-
+    margin-right: 0px;
 }
 
 header {
@@ -18,11 +18,18 @@ header h1 {
 .nav {
     display: flex;
     align-items: center;
+    padding-right:30px;
 }
 
 .nav li {
     margin-left: 20px;
     list-style-type: none;
+    border-bottom: 2px solid rgb(7, 148, 190);
+}
+
+.nav a {
+    color: rgb(7, 148, 190);
+    text-decoration: none;
 }
 
 .section-container {
@@ -39,12 +46,13 @@ header h1 {
 .section-content {
     width: 1200px;
     padding-left: 50px;
+    position: relative;
 }
 
 .hero {
     width: 100%;
-    min-height: 200px;
-    max-height: 200px;
+    min-height: 150px;
+    max-height: 150px;
 }
 
 .project {
@@ -52,11 +60,46 @@ header h1 {
     min-height: 150px;
     max-height: 150px;
     flex-basis: calc(50% - 16px);
+    background-image: url("https://images.pexels.com/photos/4963096/pexels-photo-4963096.jpeg?auto=compress&cs=tinysrgb&w=400");
+    background-size: contain;
+}
+
+.project a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+#project-one {
+    display: flex;
+    min-height: 350px;
+    max-height: 400px;
+    flex-basis: calc(100% - 32px);
 }
 
 .project li {
     list-style-type: none;
+    font-size: 24px;
+    background-color: rgb(7, 148, 190);
+    padding-left: 5px;
+    height: 28px;
+    border-bottom: 2px solid black;
+    background-size: cover;
+    position: absolute;
+    bottom: 20px;
+}
 
+.project-one li {
+    position: absolute;
+    bottom: 350px;
+    left: 50px;
+    font-size: 24px
+    
+}
+
+.project-middle li {
+    position: absolute;
+    bottom: 170px
 }
 
 .project img {
@@ -72,4 +115,4 @@ header h1 {
     list-style-type: none;
     display: flex;
     justify-content: space-between;
-} */
+}
