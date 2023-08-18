@@ -3,62 +3,90 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/CSS/style.css">
     <title>Kevin Brackin's Portfolio</title>
 </head>
 <body>
-    
-    <header>
-        <h1>Kevin Brackin</h1>
-        <ul class="nav">
-            <li><a href="#about-me">About Me</a></li>
-            <li><a href="#work">Work</a></li>
-            <li><a href="#contact-me">Contact Me</a></li>
-        </ul>
+    <header class="container-fluid">
+        <div class="row">
+            <h1 class="col-sm-5 col-md-7 col-lg-8">Kevin Brackin</h1>
+            <ul class="nav col-sm-7 col-md-5 col-lg-4">
+                <li class="nav-item">
+                    <a class="nav-link" href="#about-me">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#work">Work</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact-me">Contact Me</a>
+                </li>
+            </ul>
+        </div>
     </header>
+
     <img class="hero" src="./assets/images/image.jpg" alt="Blue Triangle Background">
-    <div class="about-me section-container" id="about-me">
-        <h2>About Me</h2>
-        <p class="section-content">Good day, my name is Kevin Brackin. I am an aspiring full-stack engineer, avid golfer and fisherman, and lover of video games!</p>
+
+    <div class="about-me section-container container-fluid" id="about-me">
+        <div class="row">
+            <h2 class="col-xs-12 col-sm-3 col-md-2 col-lg-2">About Me</h2>
+            <p class="section-content col-xs-12 col-sm-9 col-md-10 col-lg-10">Good day, my name is Kevin Brackin. I am an aspiring full-stack engineer, avid golfer and fisherman, and lover of video games!</p>
+        </div>
     </div>
-    <div class="work section-container" id="work">
-        <h2>Work</h2>
-        <ul class="section-content" id="projects-container">
-            <div class="project project-one" id="project-one">
-                <a href="https://kbrackin.github.io/Password_Generator">
-                    <li>Placeholder 1</li>
-                </a>
-            </div>
+        <div class="work section-container container-fluid" id="work">
+            <div class="row">
+            <h2 class="col-xs-12 col-sm-3 col-md-2 col-lg-2">Work</h2>
+            <ul class="section-content row col-xs-12 col-sm-9 col-md-10 col-lg-10" id="projects-container">
+                <div class="project project-one col-12" id="project-one">
+                    <a href="https://akcodes29.github.io/CafeTransmute">
+                    <li>Cafe Transmute</li>
+                    </a>
+                </div>
             
-            <div class="project project-middle">
-                <a href="Placeholder 2">
+                <div class="project col-xs-12 col-sm-6" id="project-two">
+                    <a href="Placeholder 2">
                     <li>Placeholder 2</li>
-                </a>
-            </div>
-            <div class="project project-middle">
-                <a href="Placeholder 3">
+                    </a>
+                </div>
+
+                <div class="project col-xs-12 col-sm-6" id="project-three">
+                    <a href="Placeholder 3">
                     <li>Placeholder 3</li>
-                </a>
-            </div>
-            <div class="project">
-                <a href="Placeholder 4">
+                    </a>
+                </div>
+
+                <div class="project col-xs-12 col-sm-6" id="project-four">
+                    <a href="Placeholder 4">
                     <li>Placeholder 4</li>
-                </a>
-            </div>
-            <div class="project">
-                <a href="Placeholder 5">
+                    </a>
+                </div>
+
+                <div class="project col-xs-12 col-sm-6" id="project-five">
+                    <a href="Placeholder 5">
                     <li>Placeholder 5</li>
-                </a>
+                    </a>
+                </div>
+            </ul>
+        </div>
+    </div>
+    <div class="contact-me section-container container-fluid" id="contact-me">
+        <div class="row">
+        <h2 class="col-xs-12 col-sm-3 col-md-2 col-lg-2">Contact Me</h2>
+            
+        <ul class="section-content col-xs-12 col-sm-9 col-md-10 col-lg-10">
+            <div class="row">
+            <li class="col"><a href="tel:+1(321)412-8013">321.412.8013</a></li>
+            <li class="col"><a href="mailto:brackman99@gmail.com">brackman99@gmail.com</a></li>
+            <li class="col"><a href=https://github.com/kbrackin>GitHub</a></li>
             </div>
         </ul>
+        
+        </div>
     </div>
-    <div class="contact-me section-container" id="contact-me">
-        <h2>Contact Me</h2>
-        <ul class="section-content">
-            <li><a href="tel:+1(321)412-8013">321.412.8013</a></li>
-            <li><a href="mailto:brackman99@gmail.com">brackman99@gmail.com</a></li>
-            <li><a href=https://github.com/kbrackin>GitHub</a></li>
-        </ul>
-    </div>
+    <br>
+    <br>
+    <br>
+    
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </body>
 </html

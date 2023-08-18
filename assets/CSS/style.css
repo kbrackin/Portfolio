@@ -2,29 +2,19 @@
     margin-top: 0px;
     margin-left: 0px;
     margin-right: 0px;
+    
 }
 
 header {
-    display: flex;
-    justify-content:space-between;
     background-color: #1f232e;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 header h1 {
     color:black;
-    background-color:rgb(7, 148, 190)
-}
-
-.nav {
-    display: flex;
-    align-items: center;
-    padding-right:30px;
-}
-
-.nav li {
-    margin-left: 20px;
-    list-style-type: none;
-    border-bottom: 2px solid rgb(7, 148, 190);
+    background-color:rgb(7, 148, 190);
+    background-size: auto;
 }
 
 .nav a {
@@ -32,21 +22,8 @@ header h1 {
     text-decoration: none;
 }
 
-.section-container {
-    display: flex;
-}
-
 .section-container h2 {
-    width: 300px;
-    text-align: right;
     border-right: 4px solid black;
-    padding-right: 20px;
-}
-
-.section-content {
-    width: 1200px;
-    padding-left: 50px;
-    position: relative;
 }
 
 .hero {
@@ -57,62 +34,35 @@ header h1 {
 
 .project {
     display: flex;
-    min-height: 150px;
-    max-height: 150px;
-    flex-basis: calc(50% - 16px);
-    background-image: url("https://images.pexels.com/photos/4963096/pexels-photo-4963096.jpeg?auto=compress&cs=tinysrgb&w=400");
-    background-size: contain;
-}
+    min-height: 200px;
+    background-image: url('https://images.pexels.com/photos/15889175/pexels-photo-15889175/free-photo-of-mountains-among-white-fluffy-clouds.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-repeat: no-repeat;
+    background-color: none;
+    background-size: cover;
+ }
 
 .project a {
-    display: block;
-    width: 100%;
-    height: 100%;
+    text-decoration: none;
+    color: rgb(7, 148, 190)
+}
+
+.project li {
+    background-color: #1f232e;
+    text-decoration-color: black;
 }
 
 #project-one {
     display: flex;
     min-height: 350px;
-    max-height: 400px;
-    flex-basis: calc(100% - 32px);
+    background-image: url('../images/CafeTransmute-SS.png');
+    background-repeat: no-repeat;
 }
 
 .project li {
     list-style-type: none;
-    font-size: 24px;
-    background-color: rgb(7, 148, 190);
-    padding-left: 5px;
-    height: 28px;
     border-bottom: 2px solid black;
-    background-size: cover;
-    position: absolute;
-    bottom: 20px;
-}
+ }
 
-.project-one li {
-    position: absolute;
-    bottom: 350px;
-    left: 50px;
-    font-size: 24px
-    
-}
-
-.project-middle li {
-    position: absolute;
-    bottom: 170px
-}
-
-.project img {
-    width: 100%;
-}
-
-#projects-container {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.contact-me ul{
+ .contact-me ul{
     list-style-type: none;
-    display: flex;
-    justify-content: space-between;
-}
+} 
